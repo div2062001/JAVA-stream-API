@@ -12,6 +12,7 @@ public class Question2 {
 
         List<Integer> collect = stream.filter(i -> i % 2 == 0).map(e->e*10).collect(Collectors.toList());
             System.out.println(collect);
+            System.out.println("Question solved" );
 
     }
 }
